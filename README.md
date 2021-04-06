@@ -1,8 +1,8 @@
 # d27khan.github.io
-##About
+## About
 
 Curretnly working on my Personal Website Portfolio
 
-##Usage
+## Usage
 
 This will be updated soon.
