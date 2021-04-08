@@ -1,5 +1,61 @@
-.myDiv {
-    border: 5px outset red;
-    background-color: lightblue; 
-    text-align: center;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(44, 44, 44);
+}
+
+li , a, button {
+  font-family: "Gothic A1", "Monaco";
+  font-weight: 100;
+  font-size: 25px;
+  color: #d3d1d1;
+  text-decoration: none
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 10%;
+}
+.navBar {
+  list-style-type: none;
+}
+
+.navBar li {
+  display: inline-block;
+  padding: 25px;
+}
+
+.navBar li a {
+  transition: all 0.3s ease 0s;
+}
+.navBar li a:hover {
+  color: rgb(255, 255,255);
+}
+
+h1{
+  padding: 25px;
+  font-family: "Gothic A1", "Monaco";
+  font-weight: 100;
+  font-size: 25px;
+  color: #cecece;
+}
+
+button{
+  padding: 9px 25px;
+  background-color: rgb(140, 140, 140);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  ;
+}
+
+button:hover{
+  background-color: rgba(140, 140, 140, 0.8)
+}
+
