@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: rgb(44, 44, 44);
+  
 }
 
 li , a, button {
@@ -19,7 +19,8 @@ header{
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 30px 10%;
+padding: 5px 10%;
+background-color: rgb(44, 44, 44);
 }
 .navBar {
   list-style-type: none;
