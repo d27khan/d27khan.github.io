@@ -7,7 +7,7 @@
   
 }
 
-li , a, button {
+li , a {
   font-family: "Gothic A1", "Monaco";
   font-weight: 100;
   font-size: 25px;
@@ -19,11 +19,13 @@ header{
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 5px 10%;
+
 background-color: rgb(44, 44, 44);
 }
+
 .navBar {
   list-style-type: none;
+  text-align: center;
 }
 
 .navBar li {
@@ -38,25 +40,4 @@ background-color: rgb(44, 44, 44);
   color: rgb(255, 255,255);
 }
 
-h1{
-  padding: 25px;
-  font-family: "Gothic A1", "Monaco";
-  font-weight: 100;
-  font-size: 25px;
-  color: #cecece;
-}
-
-button{
-  padding: 9px 25px;
-  background-color: rgba(140, 140, 140,1);
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  ;
-}
-
-button:hover{
-  background-color: rgba(140, 140, 140, 0.8)
-}
 
