@@ -13,11 +13,12 @@ li , a {
   font-size: 25px;
   color: #d3d1d1;
   text-decoration: none
+
 }
 
 header{
 display: flex;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
 
 background-color: rgb(44, 44, 44);
@@ -30,14 +31,22 @@ background-color: rgb(44, 44, 44);
 
 .navBar li {
   display: inline-block;
-  padding: 25px;
+  padding: 35px;
+
 }
 
 .navBar li a {
   transition: all 0.3s ease 0s;
 }
+
 .navBar li a:hover {
   color: rgb(255, 255,255);
 }
 
+.about {
+  background-color: #b4a3a3;
+  text-align: center;
+  color: rgb(194, 38, 38);
+  padding-top: 100px;
 
+}
