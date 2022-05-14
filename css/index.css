@@ -396,6 +396,35 @@ strong {
     padding: 22px 32px 32px 32px;
 }
 
+.list-group {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 0;
+}
+
+.list-group-item {
+    background-color: #ffffff;
+    border-radius: 0;
+    border: 0px;
+}
+
+.list-group-item:hover {
+    background-color: #797979;
+    border: none;
+    color: white;
+    font-size: 16px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.list-group-item-action {
+    background-color: #a9a9a9;
+}
+
+.list-group-item-action.active.show {
+    background-color: #797979;
+}
+
 .carousel-control-next,
 .carousel-control-prev {
     top: auto;
